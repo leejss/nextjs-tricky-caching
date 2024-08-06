@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Revalidate from "./components/Revalidate";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,8 @@ export default function HomePage() {
         <Link prefetch={false} href="/dynamic-fetch">
           Go to Dynamic Fetch
         </Link>
+        <Link href="/revalidation">Go to Revalidation</Link>
+        <Revalidate />
       </div>
       <div className="flex flex-col gap-3">
         <h2>Initial visit</h2>
