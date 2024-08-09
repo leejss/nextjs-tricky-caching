@@ -16,6 +16,7 @@ export default function HomePage() {
       <ol>
         <li>1. Dynamic functions 사용</li>
         <li>2. Uncached request</li>
+        <li>3. Route segment config</li>
       </ol>
       <hr className="w-full border-t-black" />
       <div className="flex gap-4">
